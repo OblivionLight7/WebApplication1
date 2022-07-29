@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>First Webpage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   
+    <body>
+            <h1>JAVA ASSIGNMENT </h1>
+            
+            <form action = "http://localhost:8080/WebApplication1/myfirstservlet" method="post">
+                <h3>Insert Data in Database Table "student"</h3>
+                  Enter Roll No     : <input type = "text" name = "rollno" > <br><br>  
+                  Enter Name     : <input type = "text" name = "name" > <br><br>
+                  Enter Mobile : <input type = "number" name = "mobile" > <br><br>
+                  Enter Email    : <input type = "text" name = "email" > <br><br> 
+                  Enter CG Mark    : <input type = "number" name = "CG_Mark" > <br><br>
+                  Enter TOC Mark    : <input type = "number" name = "TOC_Mark" > <br><br>
+                  Enter DBMS Mark    : <input type = "number" name = "DBMS_Mark" > <br><br>
+                  Enter Python Mark    : <input type = "number" name = "Python_Mark" > <br><br>
+                  Enter Java Mark    : <input type = "number" name = "Java_Mark" > <br><br>
+                 <input type = "submit" value ="Add to Database">
+                 
+            </form>
+            
+            <form action = "http://localhost:8080/WebApplication1/myfirstservlet_" method="post">
+                <h3> </h3>
+                <input type="Submit" value ="View from Database"><br>
+            </form>
+            
+            <form action = "http://localhost:8080/WebApplication1/myfirstservlet_delete" method="post">
+                <h3>Enter Roll number which you wanted to delete :</h3>
+                Enter Roll No     : <input type = "text" name = "rollno" > <br><br> 
+                <input type="Submit" value ="Delete from Database"><br>
+            </form>
+                
+        
+    </body>
+</html>
+
